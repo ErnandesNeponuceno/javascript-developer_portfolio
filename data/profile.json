@@ -53,13 +53,28 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Site de café - Del Grano Cafeteria.",
+      "url": "https://github.com/ErnandesNeponuceno/coffeeshop?tab=readme-ov-file",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Site de viagens - Posicionando elementos com Flexbox em CSS.",
+      "url": "https://github.com/ErnandesNeponuceno/Posicionando-elementos-com-Flexbox-em-CSS",
+      "github": true
+    },
+    {
+      "name": "Construindo um Layout Responsivo Para o Site do Discord Com CSS.",
+      "url": "https://github.com/ErnandesNeponuceno/Construindo-Layout-Responsivo-do-Discord",
+      "github": true
+    },
+    {
+      "name": "Site de viagens - Criando um site responsivo do zero.",
+      "url": "https://github.com/ErnandesNeponuceno/Site-responsivo-do-zero-html-css-javascript",
+      "github": true
+    },
+    {
+      "name": "Criando o meu primeiro site completo com HTML",
+      "url": "https://github.com/ErnandesNeponuceno/Criando-o-meu-primeiro-site-completo-com-HTML",
       "github": true
     }
   ],
