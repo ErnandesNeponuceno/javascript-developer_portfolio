@@ -24,7 +24,7 @@ Além de outros recursos.
 ## 💻 Preview:
 - Veja como ficou o projeto: [GitHub Pages](https://ernandesneponuceno.github.io/js-developer-portfolio/)
   
-![Imagem do Projeto]()
+![Imagem do Projeto](assets/img/tela.png)
 
 ## 🤔 O que aprendi com esse projeto:
 
