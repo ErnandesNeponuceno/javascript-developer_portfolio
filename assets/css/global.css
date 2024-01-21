@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #020024;
+    background: linear-gradient(-45deg, #4CA1AF, #2C3E50, #243B55);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    animation: gradient 10s ease infinite alternate;
+    backdrop-filter: blur(2px);
+}
+
+body::after {
+    content: "";
+    width: 100%;
+    height: 12rem;
+    position: fixed;
+    bottom: -1rem;
+    background: linear-gradient(0deg, #2C3E50 20%, transparent 100%);
+    z-index: -1;
+  }
+
+.container {
+    padding: 1rem 2rem;
+    margin: .5rem;
+    border: 1px solid #ffffff;
+    border-radius: 1.2rem;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .title {
+    display: flex;
+    margin: .5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header .title h1 {
+    margin: 0;
+}
+
+.perfil img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myName {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.personalInformation {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.personalInformation p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.personalInformation p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+.personalInformation .phone::before {
+    background-image: url('../img/icons/phone.svg');
+}
+
+.personalInformation .email::before {
+    background-image: url('../img/icons/email.svg');
+}
+
+.personalInformation .job_link::before {
+    background-image: url('../img/icons/job.svg');
+}
+
+.personalInformation .location::before {
+    background-image: url('../img/icons/location.svg');
+}
+
+.personalInformation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.personalInformation a:hover {
+    text-decoration: underline;
+    color: #F8D800;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .header {
+        display: grid;
+        grid-template-areas:
+            "perfil title"
+            "perfil personalInformation"
+        ;
+        gap: 0 2rem;
+        justify-content: center;
+    }
+
+    .header .perfil {
+        grid-area: perfil;
+        margin: 0 auto;
+    }
+
+    .header .title {
+        grid-area: title;
+        max-width: 250px;
+    }
+
+    .header .personalInformation {
+        grid-area: personalInformation;
+    }
+
+}
+
+
+/* ////////////////////////animação//////////////////// */
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+

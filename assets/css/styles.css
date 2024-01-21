@@ -1,0 +1,304 @@
+@import url(global.css);
+
+/*//// SKILLS ///// */
+
+.skills h2{
+    font-size: 1.5rem;  
+    font-weight: 700;  
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.skills .tools ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills .tools, .skills .personal{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.skills .tools ul li img{
+    max-width: 50px;
+    max-height: 50px;
+    margin: .5rem;
+}
+
+.skills .personal ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .personal ul li{
+    padding: .7rem;
+    list-style: none;
+    font-size: 1rem;
+    height: 100%;
+    align-items: center;
+}
+
+
+.skills .personal ul li::before{
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/icons/check.svg');
+    margin-right: 0.5rem;
+}
+
+/*//// EXPERIENCE ///// */
+
+.experience h3{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.experience h4{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.experience p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.experience li{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.experience li .period{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.experience li .period::before{
+    content: '';
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/icons/calendar.svg');
+    margin-right: 0.5rem;
+}
+
+/*//// PORTFOLIO///// */
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0; 
+    margin: 1rem 0;
+    width: 100%;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.portfolio li{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: .5rem;
+   
+}
+
+.portfolio li h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+
+.portfolio li .github::before{
+    content: '';
+    display: inline-block;
+    min-width: 1.2rem;
+    height: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/icons/github.svg');
+    margin-right: 0.5rem;
+}
+
+.portfolio li a{
+    color: #fff;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.portfolio li a:hover{
+    text-decoration: underline;
+    color: #F8D800;
+}
+
+/*//// EDUCATION ///// */
+
+.educationCourses h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+  
+}
+.educationCourses h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+  
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.education li {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.education li .period{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.education p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.education li .period::before{
+    content: '';
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/icons/calendar.svg');
+    margin-right: 0.5rem;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 0;
+    gap: .7rem;
+}
+
+.courses li{
+    display: flex;
+    flex-direction: column;
+}
+
+.courses li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.courses li a:hover{
+    text-decoration: underline;
+    color: #F8D800;
+}
+
+/*//// LANGUAGES///// */
+
+.languages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.languages li{
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.languages li::before{
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/icons/check.svg');
+    margin-right: 0.5rem ;
+}
+
+@media screen and (min-width: 768px){
+    
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .skills .personal ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 0.7rem 0.2rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .educationCourses {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 1rem; 
+    }
+     
+}
