@@ -116,28 +116,28 @@
 
   "courses": [
     {
-      "name": "Formação JavaScript Developer- Dio",
-      "period": "01/2024"
+      "name": "Formação JavaScript Developer - Dio | 01/2024 ",
+      "certificate": ""
     },
     {
-      "name": "Formação CSS Web Developer - Dio",
-      "period": "01/2024"
+      "name": "Formação CSS Web Developer - Dio | 01/2024",
+      "certificate": "https://drive.google.com/file/d/1hSwQrnWsBg2Moo-9Gh-nVtmtEssLgvsQ/view?usp=sharing"
     },
     {
-      "name": "Imersão Salesforce Developer - Csp Tech",
-      "period": "10/2023"
+      "name": "Imersão Salesforce Developer - Csp Tech | 10/2023",
+      "certificate": "https://drive.google.com/file/d/1Ucjy8eDO5IS-g1cbg93ekgVyySM-Ca9Z/view?usp=sharing"
     },
     {
-      "name": "Formação HTML Web Developer - Dio",
-      "period": "08/2023"
+      "name": "Formação HTML Web Developer - Dio | 08/2023",
+      "certificate": "https://drive.google.com/file/d/1yitSGE8T7ITMBgl2fHan6DvqxiIxksNk/view?usp=sharing"
     },
     {
-      "name": "Salesforce Certified Administrator Training - Udemy",
-      "period": "07/2023"
+      "name": "Salesforce Certified Administrator Training - Udemy | 07/2023",
+      "certificate": "https://drive.google.com/file/d/18NQbqWnAXmCRoJZuWZIANNs3-ymJDGx5/view?usp=sharing"
     },
     {
-      "name": "Formação de Especialistas Salesforce - Sottelli",
-      "period": "03/2023"
+      "name": "Formação de Especialistas Salesforce - Sottelli | 03/2023",
+      "certificate": "https://drive.google.com/file/d/1ro1ImNBEZflMz0c4wt61IQHek7k_mb9T/view?usp=sharing"
     }
     
     
